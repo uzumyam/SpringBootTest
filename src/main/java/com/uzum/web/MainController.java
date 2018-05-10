@@ -45,7 +45,7 @@ public class MainController {
         return JSON.toJSONString(map);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/test")
     public String home(){
         return "hello world";
     }
